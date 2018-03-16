@@ -1,0 +1,138 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 531110 */
+    src: url('https://at.alicdn.com/t/font_531110_bdk4vafq57jsjor.eot');
+    src: url('https://at.alicdn.com/t/font_531110_bdk4vafq57jsjor.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_531110_bdk4vafq57jsjor.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_531110_bdk4vafq57jsjor.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_531110_bdk4vafq57jsjor.svg#iconfont') format('svg');
+}
+/*header*/
+body{
+    padding-top: 0.45rem;
+    padding-bottom: 0.52rem;
+}
+.top{
+    width: 100%;
+    height: 0.45rem;
+    background: rgba(0,0,0,0.8);
+    z-index: 10;
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+}
+.top .icon{
+    width: 0.45rem;
+    height: 0.45rem;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.title{
+    margin: 0 auto;
+}
+.title h5{
+    width: auto;
+    line-height: 0.45rem;
+    color: white;
+    font-weight: normal;
+}
+.iconfont{
+    font-size: 0.24rem;
+    font-family: iconfont;
+    font-style: normal;
+    color: white;
+    line-height: 0.45rem;
+}
+
+/*fieldset*/
+fieldset{
+    width: 85%;
+    height: 3rem;
+    margin: 0.3rem auto 0;
+    border-radius: 0.05rem;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+}
+legend{
+    font-size: 0.16rem;
+    font-family: '幼圆';
+    color: #333;
+}
+input{
+    width: 100%;
+    height:0.3rem;
+    border: none;
+    border-bottom:1px solid #aeaeae;
+}
+#psw{
+    margin-top: 0.2rem;
+}
+#btn{
+    margin-top: 0.5rem;
+}
+.btn{
+    border-radius: 0.1rem;
+    border: 0.01rem solid gray;
+    background: none;
+    color: dimgray;
+    font-size: 0.14rem;
+}
+/*footer*/
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.tab{
+    width: 100%;
+    height: 0.52rem;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: space-around;
+}
+.tab li{
+    width: 33.33333%;
+    height: 100%;
+}
+.tab li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tab li span{
+    display: block;
+    width: 0.26rem;
+    height: 0.26rem;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0.05rem;
+}
+.tab li i{
+    font-size: 0.2rem;
+    line-height: 0.26rem;
+    font-family: iconfont;
+    font-style: normal;
+    color: #eee;
+}
+.tab li h4{
+    font-size: 0.12rem;
+    color: #eeeeee;
+    font-weight: normal;
+    margin-top: 0.03rem;
+}
+.tab .color span{
+    border: 1px solid darkred;
+}
+.tab .color span i{
+    color: darkred;
+}
+.tab .color h4{
+    color: darkred;
+}
